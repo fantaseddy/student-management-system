@@ -1,2 +1,3 @@
 # student-management-system
-ELEC2
+ELEC1
+Sir Rodney Gonzalez
