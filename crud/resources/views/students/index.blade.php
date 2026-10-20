@@ -2,10 +2,10 @@
 
 @section('content')
 
-<div class="d-flex justify-content-between align-items-centermb-3">
+<div class="d-flex justify-content-between align-items-center mb-3">
     <h2>Student List</h2>
     
-    <a href="{{ route('students.create') }}" class="btn btnprimary">
+    <a href="{{ route('students.create') }}" class="btn btn-primary">
         Add Student
     </a>
 </div>
@@ -49,7 +49,7 @@
                                 @csrf
                                 @method('DELETE')
                             
-                                <button type="submit" class="btnbtn-danger btn-sm">
+                                <button type="submit" class="btn btn-danger btn-sm">
                                     Delete
                                 </button>
                             </form>

@@ -17,7 +17,7 @@
             </div>
         @endif
 
-        <form action="{{ route('students.store') }}"method="POST">
+        <form action="{{ route('students.store') }}" method="POST">
             @csrf
 
             <div class="mb-3">
@@ -73,7 +73,7 @@
                 Cancel
             </a>
         </form>
-        
+
     </div>
 </div>
 @endsection
